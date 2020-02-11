@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <meta  name="viewport" content="width=device-width">
+        <meta  name="author" content="Saran surya">  
+        <meta  name="keywords" content="simple calculator,calculator">
+        <script src="indexjs.js"></script>
+        <link rel="stylesheet" href="indexst.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>A simple platform for basic mathematic calculations</h1>
+                </div>
+            </div>
+        </header>
+        <section class="container-1">
+            <form action="">
+                <label>Number 1:</label>
+                <input id="n-1" type="number"  placeholder="Number-1" required><br>
+                <label>Number 2:</label>
+                <input id="n-2" type="number"  placeholder="Number-2" required>
+            </form>
+            <div class="operators">
+                <label>Select your operator and the output will be displayed</label><br>
+                <button class="button" onclick="add()" >+</button>
+                <button class="button" onclick="sub()" >-</button>
+                <button class="button" onclick="mult()" >x</button>
+                <button class="button" onclick="div()" >/</button>
+            </div>
+            <div class="result">
+                <h1 id="answer"></h1>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>copyright &copy; saran surya </p>
+        </footer>
+    </body>
+</html>
