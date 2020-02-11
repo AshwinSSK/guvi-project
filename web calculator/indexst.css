@@ -61,6 +61,10 @@ header{
 #answer{
     text-align: center;
 }
+.container-1 input{
+    border-radius: 15px;
+    padding: 4px;
+}
 @media(max-width:468px){
 .button,.container-1{
     display: block;
